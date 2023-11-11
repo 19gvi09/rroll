@@ -30,7 +30,10 @@ export const register = async ({body}: {body: UserCreateUpdate}) => {
   try {
     const result = await fetch(`${process.env.NEXT_PUBLIC_APP_API_URL}/api/register/`, {
       method: "POST",
-      body: JSON.stringify(body)
+      body: JSON.stringify(body),
+      headers: new Headers({
+        "Content-Type": "application/json"
+      })
     })
     return await result.json() as string
   } catch (e) {

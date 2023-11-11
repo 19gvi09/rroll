@@ -2,7 +2,7 @@
 
 import {Form, FormProps, Input, Select} from "antd";
 import {FC} from "react";
-import {GradeRead, RoleEnum} from "@/shared/types";
+import {GradeRead, LocationRead, RoleEnum} from "@/shared/types";
 
 const roles: { label: string, value: RoleEnum }[] = [
   {
@@ -17,12 +17,13 @@ const roles: { label: string, value: RoleEnum }[] = [
 
 interface IEmployeeFormProps extends Pick<FormProps, "onFinish" | "initialValues" | "form"> {
   grades: GradeRead[]
+  locations: LocationRead[]
 }
 
-export const EmployeeForm: FC<IEmployeeFormProps> = ({onFinish, initialValues, form, grades}) => {
-  const role = Form.useWatch("role", form)
+export const EmployeeForm: FC<IEmployeeFormProps> = ({onFinish, initialValues, form, grades, locations}) => {
+  const role_id = Form.useWatch("role_id", form)
   return (
-    <Form layout="vertical" autoComplete="off" form={form} onFinish={onFinish} initialValues={initialValues ? initialValues : {grade_id: 1}}>
+    <Form layout="vertical" autoComplete="off" form={form} onFinish={onFinish} initialValues={initialValues ? initialValues : {role_id: RoleEnum._1}}>
       <Form.Item name="last_name" label="Фамилия" rules={[{required: true, message: "Введите фамилию"}]}>
         <Input />
       </Form.Item>
@@ -42,13 +43,13 @@ export const EmployeeForm: FC<IEmployeeFormProps> = ({onFinish, initialValues, f
         <Select options={roles}/>
       </Form.Item>
       {
-        role === RoleEnum._1 &&
+        role_id === RoleEnum._1 &&
         <Form.Item name="grade" label="Грейд" rules={[{required: true, message: "Выберите грейд"}]}>
           <Select options={grades.map(grade => ({label: grade.name, value: grade.id}))}/>
         </Form.Item>
       }
       <Form.Item name="location_id" label="Локация" rules={[{required: true, message: "Выберите локацию"}]}>
-        <Select options={roles}/>
+        <Select options={locations.map(location => ({label: location.address, value: location.id}))}/>
       </Form.Item>
     </Form>
   )

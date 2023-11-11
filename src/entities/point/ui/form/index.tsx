@@ -22,7 +22,7 @@ export const PointForm: FC<IPointFormProps> = ({onFinish, initialValues, form}) 
       <Form.Item name="date_of_connection_of_the_point" label="Дата подключения точки" rules={[{required: true, message: "Введите дату подключения точки"}]}>
         <DatePicker />
       </Form.Item>
-      <Form.Item name="is_materials_delivered" label="Карты и материалы доставлены?">
+      <Form.Item valuePropName="checked" name="is_materials_delivered" label="Карты и материалы доставлены?">
         <Checkbox />
       </Form.Item>
       <Form.Item name="date_of_issue_of_the_last_card" label="Дата последней выдачи карты">

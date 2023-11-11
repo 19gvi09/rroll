@@ -24,6 +24,11 @@ export const menuItems: MenuProps["items"] = [
     icon: <TeamOutlined />
   },
   {
+    label: <Link href="/locations">Locations</Link>,
+    key: "/locations",
+    icon: <BankOutlined />
+  },
+  {
     label: <Link href="/tasks">Tasks</Link>,
     key: "/tasks",
     icon: <ScheduleOutlined />

@@ -22,7 +22,7 @@ export const PointsTable: FC<IPointsTableProps> = ({data, additionalColumns = []
       dataIndex: "date_of_connection_of_the_point",
       key: "date_of_connection_of_the_point",
       render: (text) => {
-        const date = dayjs(text, "DD.MM.YYYY")
+        const date = dayjs(text)
         return `${date.format("DD.MM.YYYY")} (${dayjs().diff(date, "d")} дней)`
       }
     },
@@ -37,7 +37,7 @@ export const PointsTable: FC<IPointsTableProps> = ({data, additionalColumns = []
       dataIndex: "date_of_issue_of_the_last_card",
       key: "date_of_issue_of_the_last_card",
       render: (text) => {
-        const date = dayjs(text, "DD.MM.YYYY")
+        const date = dayjs(text)
         return `${date.format("DD.MM.YYYY")} (${dayjs().diff(date, "d")} дней)`
       }
     },

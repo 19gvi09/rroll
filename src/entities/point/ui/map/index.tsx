@@ -22,7 +22,7 @@ export const PointsMap = ({points}) => {
   const [ymap, setYmap] = useState<typeof ymaps>()
   const [map, setMap] = useState<ymaps.Map>()
 
-  useEffect(() => {
+  /*useEffect(() => {
     if (!ymap || !map) return
     const multiRoute = new ymap.multiRouter.MultiRoute(
       {
@@ -42,7 +42,7 @@ export const PointsMap = ({points}) => {
     if (routeRef.current) map.geoObjects.remove(routeRef.current)
     routeRef.current = multiRoute
     map.geoObjects.add(multiRoute)
-  }, [ymap, map])
+  }, [ymap, map])*/
 
   return (
     <>
@@ -53,7 +53,7 @@ export const PointsMap = ({points}) => {
         instanceRef={ref => setMap(ref)}
         onLoad={api => setYmap(api)}
       >
-        {false && points.map(point => <Point key={point.id} point={point} />)}
+        {points.map(point => <Point key={point.id} point={point} />)}
       </Map>
     </>
   )

@@ -25,11 +25,10 @@ export interface IUserDeleteRequestVariables {
 }
 
 export const deleteUser = async ({id, token}: IUserDeleteRequestVariables) => {
-  const response = await fetch(`${process.env.NEXT_PUBLIC_APP_API_URL}/auth/${id}`, {
+  const response = await fetch(`${process.env.NEXT_PUBLIC_APP_API_URL}/auth/${id}/`, {
     method: "DELETE",
     headers: new Headers({
       "Authorization": `Bearer ${token}`,
-      "Content-Type": "application/json"
     })
   })
   if (response.ok) return await response.json() as string

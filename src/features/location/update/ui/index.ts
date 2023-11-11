@@ -1,0 +1,1 @@
+export {UpdateLocationModal} from "./modal"

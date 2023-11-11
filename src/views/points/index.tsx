@@ -12,7 +12,7 @@ export const PointsPage = ({points}) => {
     render: (text, record) => (
       <>
         <UpdatePointModal point={record} />
-        <DeletePointPopconfirm />
+        <DeletePointPopconfirm point={record} />
       </>
     )
   }

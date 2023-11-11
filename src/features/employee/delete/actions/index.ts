@@ -1,4 +1,4 @@
-"use client"
+"use server"
 import {deleteUser, IUserDeleteRequestVariables, register} from "@/shared/api";
 import {revalidateTag} from "next/cache";
 

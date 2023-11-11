@@ -1,0 +1,1 @@
+export {LocationsTable} from "./table"

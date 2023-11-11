@@ -1,4 +1,4 @@
-"use client"
+"use server"
 
 import {UserCreateUpdate} from "@/shared/types";
 import {register} from "@/shared/api";

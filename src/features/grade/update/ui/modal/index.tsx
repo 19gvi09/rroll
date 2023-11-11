@@ -33,7 +33,6 @@ export const UpdateGradeModal: FC<IUpdateGradeModalProps> = ({grade}) => {
   return (
     <>
       <Button onClick={() => setOpen(true)} icon={<EditOutlined />} />
-      {grade.name}
       <Modal open={open} title="Редактировать грейд" onCancel={cancel} onOk={() => form.submit()}>
         <Form layout="vertical" initialValues={grade} form={form} onFinish={submit}>
           <Form.Item name="id" hidden label="Название" rules={[{required: true, message: "Введите название!"}]}>

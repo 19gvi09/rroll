@@ -12,12 +12,13 @@ const {Header} = Layout
 export const HeaderWidget = () => {
   const session = useSession()
   const logOut = async () => {
+    await signOut()
     try {
       await logout(session.data.access_token)
     } catch (e) {
       throw e
     }
-    await signOut()
+
   }
   const items: MenuProps["items"] = [
     {

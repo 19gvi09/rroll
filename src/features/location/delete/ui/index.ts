@@ -1,0 +1,1 @@
+export {DeleteLocationPopconfirm} from "./popconfirm"

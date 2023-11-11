@@ -9,7 +9,7 @@ export default auth(
     if (token && pathname.startsWith("/login")) {
       return NextResponse.redirect(new URL("/", request.url))
     }
-    if (!token && !pathname.startsWith("/login")) {
+    if (!token && !pathname.startsWith("/login") && pathname !== "/") {
       return NextResponse.redirect(new URL("/login", request.url))
     }
   },
