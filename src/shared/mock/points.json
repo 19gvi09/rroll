@@ -1,0 +1,389 @@
+[
+  {
+    "id": 1,
+    "address": "ул. Ставропольская, д. 140",
+    "is_materials_delivered": true,
+    "date_of_connection_of_the_point": "11.03.2023",
+    "date_of_issue_of_the_last_card": "11.10.2023",
+    "number_of_approved_requests": 0,
+    "number_of_cards_issued": 0
+  },
+  {
+    "id": 2,
+    "address": "ул. им. Максима Горького, д. 128",
+    "is_materials_delivered": false,
+    "date_of_connection_of_the_point": "11.09.2023",
+    "date_of_issue_of_the_last_card": "11.07.2023",
+    "number_of_approved_requests": 15,
+    "number_of_cards_issued": 3
+  },
+  {
+    "id": 3,
+    "address": "ул. им. Дзержинского, д. 100",
+    "is_materials_delivered": false,
+    "date_of_connection_of_the_point": "11.09.2023",
+    "date_of_issue_of_the_last_card": "11.07.2023",
+    "number_of_approved_requests": 9,
+    "number_of_cards_issued": 1
+  },
+  {
+    "id": 4,
+    "address": "ул. Красноармейская, д. 126",
+    "is_materials_delivered": false,
+    "date_of_connection_of_the_point": "11.09.2023",
+    "date_of_issue_of_the_last_card": "11.10.2023",
+    "number_of_approved_requests": 38,
+    "number_of_cards_issued": 23
+  },
+  {
+    "id": 5,
+    "address": "х. Ленина, п/о. 37",
+    "is_materials_delivered": false,
+    "date_of_connection_of_the_point": "11.03.2023",
+    "date_of_issue_of_the_last_card": "11.10.2023",
+    "number_of_approved_requests": 14,
+    "number_of_cards_issued": 0
+  },
+  {
+    "id": 6,
+    "address": "тер. Пашковский жилой массив, ул. Крылатая, д. 2",
+    "is_materials_delivered": false,
+    "date_of_connection_of_the_point": "11.09.2023",
+    "date_of_issue_of_the_last_card": "10.29.2023",
+    "number_of_approved_requests": 19,
+    "number_of_cards_issued": 1
+  },
+  {
+    "id": 7,
+    "address": "ул. Восточно-Кругликовская, д. 64/2",
+    "is_materials_delivered": false,
+    "date_of_connection_of_the_point": "11.09.2023",
+    "date_of_issue_of_the_last_card": "10.14.2023",
+    "number_of_approved_requests": 19,
+    "number_of_cards_issued": 12
+  },
+  {
+    "id": 8,
+    "address": "ул. Красных Партизан, д. 439",
+    "is_materials_delivered": false,
+    "date_of_connection_of_the_point": "11.09.2023",
+    "date_of_issue_of_the_last_card": "10.08.2023",
+    "number_of_approved_requests": 84,
+    "number_of_cards_issued": 63
+  },
+  {
+    "id": 9,
+    "address": "ул. Таманская, д. 153 к. 3, кв. 2",
+    "is_materials_delivered": false,
+    "date_of_connection_of_the_point": "11.09.2023",
+    "date_of_issue_of_the_last_card": "11.08.2023",
+    "number_of_approved_requests": 15,
+    "number_of_cards_issued": 1
+  },
+  {
+    "id": 10,
+    "address": "ул. им. Дзержинского, д. 165",
+    "is_materials_delivered": false,
+    "date_of_connection_of_the_point": "11.09.2023",
+    "date_of_issue_of_the_last_card": "11.10.2023",
+    "number_of_approved_requests": 19,
+    "number_of_cards_issued": 0
+  },
+  {
+    "id": 11,
+    "address": "ст-ца. Елизаветинская, ул. Широкая, д. 260",
+    "is_materials_delivered": false,
+    "date_of_connection_of_the_point": "11.09.2023",
+    "date_of_issue_of_the_last_card": "10.26.2023",
+    "number_of_approved_requests": 29,
+    "number_of_cards_issued": 15
+  },
+  {
+    "id": 12,
+    "address": "ул. им. Тургенева, д. 174, 1 этаж",
+    "is_materials_delivered": true,
+    "date_of_connection_of_the_point": "11.03.2023",
+    "date_of_issue_of_the_last_card": "11.10.2023",
+    "number_of_approved_requests": 0,
+    "number_of_cards_issued": 0
+  },
+  {
+    "id": 13,
+    "address": "ул. Уральская, д. 162",
+    "is_materials_delivered": false,
+    "date_of_connection_of_the_point": "11.09.2023",
+    "date_of_issue_of_the_last_card": "11.06.2023",
+    "number_of_approved_requests": 21,
+    "number_of_cards_issued": 5
+  },
+  {
+    "id": 14,
+    "address": "ул. Уральская, д. 79/1",
+    "is_materials_delivered": true,
+    "date_of_connection_of_the_point": "11.03.2023",
+    "date_of_issue_of_the_last_card": "11.10.2023",
+    "number_of_approved_requests": 5,
+    "number_of_cards_issued": 0
+  },
+  {
+    "id": 15,
+    "address": "ул. им. Селезнева, д. 197/5",
+    "is_materials_delivered": false,
+    "date_of_connection_of_the_point": "11.09.2023",
+    "date_of_issue_of_the_last_card": "11.03.2023",
+    "number_of_approved_requests": 14,
+    "number_of_cards_issued": 3
+  },
+  {
+    "id": 16,
+    "address": "ул. Уральская, д. 117",
+    "is_materials_delivered": true,
+    "date_of_connection_of_the_point": "11.03.2023",
+    "date_of_issue_of_the_last_card": "11.10.2023",
+    "number_of_approved_requests": 0,
+    "number_of_cards_issued": 0
+  },
+  {
+    "id": 17,
+    "address": "ул. им. Селезнева, д. 76",
+    "is_materials_delivered": false,
+    "date_of_connection_of_the_point": "11.03.2023",
+    "date_of_issue_of_the_last_card": "11.10.2023",
+    "number_of_approved_requests": 0,
+    "number_of_cards_issued": 0
+  },
+  {
+    "id": 18,
+    "address": "ул. 1-го Мая, д. 268",
+    "is_materials_delivered": false,
+    "date_of_connection_of_the_point": "11.03.2023",
+    "date_of_issue_of_the_last_card": "11.10.2023",
+    "number_of_approved_requests": 0,
+    "number_of_cards_issued": 0
+  },
+  {
+    "id": 19,
+    "address": "ул. Зиповская, д. 1",
+    "is_materials_delivered": false,
+    "date_of_connection_of_the_point": "11.09.2023",
+    "date_of_issue_of_the_last_card": "11.04.2023",
+    "number_of_approved_requests": 32,
+    "number_of_cards_issued": 9
+  },
+  {
+    "id": 20,
+    "address": "ул. им. 40-летия Победы, д. 20/1",
+    "is_materials_delivered": false,
+    "date_of_connection_of_the_point": "11.09.2023",
+    "date_of_issue_of_the_last_card": "11.06.2023",
+    "number_of_approved_requests": 35,
+    "number_of_cards_issued": 15
+  },
+  {
+    "id": 21,
+    "address": "ул. им. Атарбекова, д. 24",
+    "is_materials_delivered": true,
+    "date_of_connection_of_the_point": "11.03.2023",
+    "date_of_issue_of_the_last_card": "11.10.2023",
+    "number_of_approved_requests": 6,
+    "number_of_cards_issued": 0
+  },
+  {
+    "id": 22,
+    "address": "ул. им. Героя Аверкиева А.А., д. 8",
+    "is_materials_delivered": false,
+    "date_of_connection_of_the_point": "11.09.2023",
+    "date_of_issue_of_the_last_card": "11.04.2023",
+    "number_of_approved_requests": 18,
+    "number_of_cards_issued": 6
+  },
+  {
+    "id": 23,
+    "address": "ул. им. Героя Аверкиева А.А., д. 8/1 к. мая, кв. 268",
+    "is_materials_delivered": false,
+    "date_of_connection_of_the_point": "11.09.2023",
+    "date_of_issue_of_the_last_card": "11.10.2023",
+    "number_of_approved_requests": 15,
+    "number_of_cards_issued": 5
+  },
+  {
+    "id": 24,
+    "address": "ул. им. Тургенева, д. 106",
+    "is_materials_delivered": false,
+    "date_of_connection_of_the_point": "11.09.2023",
+    "date_of_issue_of_the_last_card": "11.08.2023",
+    "number_of_approved_requests": 96,
+    "number_of_cards_issued": 20
+  },
+  {
+    "id": 25,
+    "address": "ул. Красных Партизан, д. 117",
+    "is_materials_delivered": true,
+    "date_of_connection_of_the_point": "11.03.2023",
+    "date_of_issue_of_the_last_card": "11.10.2023",
+    "number_of_approved_requests": 0,
+    "number_of_cards_issued": 0
+  },
+  {
+    "id": 26,
+    "address": "ул. Северная, д. 389",
+    "is_materials_delivered": false,
+    "date_of_connection_of_the_point": "11.09.2023",
+    "date_of_issue_of_the_last_card": "11.10.2023",
+    "number_of_approved_requests": 16,
+    "number_of_cards_issued": 0
+  },
+  {
+    "id": 27,
+    "address": "ул. Уральская, д. 166/3",
+    "is_materials_delivered": false,
+    "date_of_connection_of_the_point": "11.09.2023",
+    "date_of_issue_of_the_last_card": "11.07.2023",
+    "number_of_approved_requests": 43,
+    "number_of_cards_issued": 29
+  },
+  {
+    "id": 28,
+    "address": "ул. Северная, д. 524",
+    "is_materials_delivered": false,
+    "date_of_connection_of_the_point": "11.09.2023",
+    "date_of_issue_of_the_last_card": "11.07.2023",
+    "number_of_approved_requests": 13,
+    "number_of_cards_issued": 4
+  },
+  {
+    "id": 29,
+    "address": "ул. им. Кирилла Россинского, д. 61/1",
+    "is_materials_delivered": false,
+    "date_of_connection_of_the_point": "11.09.2023",
+    "date_of_issue_of_the_last_card": "11.04.2023",
+    "number_of_approved_requests": 19,
+    "number_of_cards_issued": 5
+  },
+  {
+    "id": 30,
+    "address": "ул. Коммунаров, д. 258",
+    "is_materials_delivered": false,
+    "date_of_connection_of_the_point": "11.09.2023",
+    "date_of_issue_of_the_last_card": "10.25.2023",
+    "number_of_approved_requests": 45,
+    "number_of_cards_issued": 30
+  },
+  {
+    "id": 31,
+    "address": "ул. им. Дзержинского, д. 100",
+    "is_materials_delivered": false,
+    "date_of_connection_of_the_point": "11.09.2023",
+    "date_of_issue_of_the_last_card": "11.09.2023",
+    "number_of_approved_requests": 19,
+    "number_of_cards_issued": 4
+  },
+  {
+    "id": 32,
+    "address": "ул. Северная, д. 326",
+    "is_materials_delivered": false,
+    "date_of_connection_of_the_point": "11.09.2023",
+    "date_of_issue_of_the_last_card": "11.07.2023",
+    "number_of_approved_requests": 20,
+    "number_of_cards_issued": 9
+  },
+  {
+    "id": 33,
+    "address": "ул. им. 40-летия Победы, д. 34",
+    "is_materials_delivered": true,
+    "date_of_connection_of_the_point": "11.03.2023",
+    "date_of_issue_of_the_last_card": "11.10.2023",
+    "number_of_approved_requests": 19,
+    "number_of_cards_issued": 0
+  },
+  {
+    "id": 34,
+    "address": "ул. Красная, д. 176",
+    "is_materials_delivered": false,
+    "date_of_connection_of_the_point": "11.09.2023",
+    "date_of_issue_of_the_last_card": "08.26.2023",
+    "number_of_approved_requests": 82,
+    "number_of_cards_issued": 72
+  },
+  {
+    "id": 35,
+    "address": "ул. Уральская, д. 79/1",
+    "is_materials_delivered": false,
+    "date_of_connection_of_the_point": "11.09.2023",
+    "date_of_issue_of_the_last_card": "10.18.2023",
+    "number_of_approved_requests": 32,
+    "number_of_cards_issued": 21
+  },
+  {
+    "id": 36,
+    "address": "ул. Северная, д. 326",
+    "is_materials_delivered": false,
+    "date_of_connection_of_the_point": "11.09.2023",
+    "date_of_issue_of_the_last_card": "11.06.2023",
+    "number_of_approved_requests": 19,
+    "number_of_cards_issued": 4
+  },
+  {
+    "id": 37,
+    "address": "ул. Красная, д. 149",
+    "is_materials_delivered": false,
+    "date_of_connection_of_the_point": "11.09.2023",
+    "date_of_issue_of_the_last_card": "11.01.2023",
+    "number_of_approved_requests": 10,
+    "number_of_cards_issued": 7
+  },
+  {
+    "id": 38,
+    "address": "п. Березовый, ул. Целиноградская, д. 6/1",
+    "is_materials_delivered": true,
+    "date_of_connection_of_the_point": "11.03.2023",
+    "date_of_issue_of_the_last_card": "11.10.2023",
+    "number_of_approved_requests": 13,
+    "number_of_cards_issued": 0
+  },
+  {
+    "id": 39,
+    "address": "ул. им. Дзержинского, д. 100",
+    "is_materials_delivered": true,
+    "date_of_connection_of_the_point": "11.03.2023",
+    "date_of_issue_of_the_last_card": "11.10.2023",
+    "number_of_approved_requests": 10,
+    "number_of_cards_issued": 0
+  },
+  {
+    "id": 40,
+    "address": "ул. Российская, д. 418",
+    "is_materials_delivered": false,
+    "date_of_connection_of_the_point": "11.09.2023",
+    "date_of_issue_of_the_last_card": "11.04.2023",
+    "number_of_approved_requests": 30,
+    "number_of_cards_issued": 14
+  },
+  {
+    "id": 41,
+    "address": "ул. им. Володи Головатого, д. 313",
+    "is_materials_delivered": false,
+    "date_of_connection_of_the_point": "11.09.2023",
+    "date_of_issue_of_the_last_card": "11.04.2023",
+    "number_of_approved_requests": 65,
+    "number_of_cards_issued": 12
+  },
+  {
+    "id": 42,
+    "address": "ул. Красная, д. 145",
+    "is_materials_delivered": false,
+    "date_of_connection_of_the_point": "11.09.2023",
+    "date_of_issue_of_the_last_card": "11.07.2023",
+    "number_of_approved_requests": 20,
+    "number_of_cards_issued": 4
+  },
+  {
+    "id": 43,
+    "address": "ул. Красная, д. 154",
+    "is_materials_delivered": true,
+    "date_of_connection_of_the_point": "11.03.2023",
+    "date_of_issue_of_the_last_card": "11.10.2023",
+    "number_of_approved_requests": 0,
+    "number_of_cards_issued": 0
+  }
+]

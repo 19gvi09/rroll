@@ -1,0 +1,1 @@
+export {UpdatePointModal} from "./modal"

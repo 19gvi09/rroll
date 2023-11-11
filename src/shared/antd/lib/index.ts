@@ -1,0 +1,1 @@
+export { StyledComponentsRegistryProvider } from "./provider"

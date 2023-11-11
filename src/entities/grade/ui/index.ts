@@ -1,0 +1,1 @@
+export {GradesTable} from "./table"

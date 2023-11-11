@@ -1,0 +1,1 @@
+export {YandexMapsProvider} from "./provider"

@@ -1,0 +1,1 @@
+export {UpdateGradeModal} from "./modal"

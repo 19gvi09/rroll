@@ -1,0 +1,1 @@
+export {DeleteGradePopconfirm} from "./popconfirm"

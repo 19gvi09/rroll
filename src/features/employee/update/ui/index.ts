@@ -1,0 +1,1 @@
+export {UpdateEmployeeModal} from "./modal"

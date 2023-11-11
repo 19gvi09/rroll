@@ -1,0 +1,1 @@
+export {DeletePointPopconfirm} from "./popconfirm"
