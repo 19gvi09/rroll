@@ -60,6 +60,6 @@ EXPOSE 3000
 
 ENV PORT 3000
 # set hostname to localhost
-ENV HOSTNAME "0.0.0.0"
+ENV HOSTNAME "10.0.0.33"
 
 CMD ["node", "server.js"]
